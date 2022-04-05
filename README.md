@@ -9,7 +9,7 @@ The calculations of the Fibonacci index are done by a separate nodejs worker tha
 Built custom images using Docker and learned Docker CLI for debugging and inspecting running containers.
 Built a pipeline for CI + CD utilizing Github, Travis CI, AWS ElasticBeanstalk.
 
-Travis CI being responsible for testing, building Docker images, pushing to Docker Hub, and deploying to AWS.  
+Travis CI triggered by a commit/pull request to the main branch on Github, and being responsible for testing, building Docker images, pushing to Docker Hub, and deploying to AWS.  
 
 Within AWS utilizing Elastic Beanstalk app with Docker Multi-Container settings defined.
 An S3 bucket is configured automatically when you create the Elastic Beanstalk app, and will host the project contents for AWS to deploy.
